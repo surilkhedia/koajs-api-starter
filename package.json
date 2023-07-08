@@ -1,0 +1,29 @@
+{
+  "name": "koajs-api-starter",
+  "version": "1.0.0",
+  "description": "A starter app for a fast KoaJS REST API with MySQL and Redis config",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "starter",
+    "boilerplate",
+    "koajs",
+    "redis",
+    "mysql"
+  ],
+  "author": "surilkhedia",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.1",
+    "koa-tree-router": "^0.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
